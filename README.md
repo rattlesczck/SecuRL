@@ -1,7 +1,7 @@
 # SecuRL
 SecuRL – AI-Powered Cyber Threat Detection for 6G Networks SecuRL is a Reinforcement Learning-based cybersecurity framework that detects and mitigates threats in real time using Deep Q-Networks, a Cyber Knowledge Graph (CKG), and NASim. It adapts to evolving attacks, integrates real-time threat intelligence, and enables LLM-powered threat analysis.
 
-Key Components & Methodology
+**Key Components & Methodology**
 Cyber Knowledge Graph (CKG) for Threat Intelligence
 Why?
 Traditional security systems rely on static rules, which are ineffective against rapidly evolving cyber threats. A dynamic knowledge graph enhances the model’s ability to understand and analyze vulnerabilities in real time.
@@ -13,7 +13,8 @@ How?
 
 Data was collected using web scraping techniques (BeautifulSoup), structured using Graphker, and stored in Neo4j.
 Queries are executed using Cypher, enabling real-time threat intelligence retrieval for the RL model.
-Reinforcement Learning for Threat Detection (DQN Model)
+
+**Reinforcement Learning for Threat Detection (DQN Model)**
 Why?
 Traditional threat detection methods rely on predefined rules and signature-based approaches, which are ineffective against zero-day attacks. Reinforcement Learning enables adaptive threat detection by continuously learning from attack scenarios.
 
@@ -38,14 +39,18 @@ User queries are converted into Cypher queries using LLMs (Groq & Gemini).
 A Streamlit-based user interface was developed to facilitate seamless interaction with the Cyber Knowledge Graph.
 The system enables security professionals to retrieve insights from large-scale threat data without requiring expertise in graph databases.
 
+
 **Innovation & Impact**
 The RL model continuously improves by learning from simulated attack scenarios.
 Designed to operate in high-speed 6G networks without performance bottlenecks.
 Moves beyond traditional signature-based detection by dynamically analyzing network behavior.
 Security professionals can extract insights using an LLM-driven threat analysis system.
+
+
 Achievements
 **Secured first place** at the Software and System Security Bootcamp hosted by NITK Surathkal, in collaboration with Honeywell experts.
 Recognized for developing a novel Reinforcement Learning-based cybersecurity framework tailored for next-generation networks.
+
 
 **Future Enhancements**
 Deploying the model in real-world network environments for further evaluation.
